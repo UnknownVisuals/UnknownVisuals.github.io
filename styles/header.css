@@ -14,6 +14,11 @@
   filter: blur(200px);
 }
 
+.titleContainer {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 .title {
   font-size: 32px;
   text-align: center;

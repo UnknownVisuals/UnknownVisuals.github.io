@@ -10,3 +10,7 @@ body {
   color: whitesmoke;
   padding-bottom: 125px;
 }
+
+p {
+  margin: 0;
+}
