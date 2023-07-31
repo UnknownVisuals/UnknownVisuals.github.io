@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "ITC Cheltenhams";
+  src: url(/assets/fonts/CheltenhamStdBook.otf);
+}
+
+body {
+  font-family: "ITC Cheltenhams";
+  font-size: 14px;
+  background-color: #000a15;
+  color: whitesmoke;
+  padding-bottom: 125px;
+}

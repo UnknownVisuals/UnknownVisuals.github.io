@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Unknown Visuals</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
+
 <body>
-    <!-- HEADER SECTION -->
-    <header>
-        <nav>
-            <a href="index.html" id="title">UNKNOWN VISUALS</a>
-            <p id="description">DIGITAL CREATOR</p>
-        </nav>
-        <nav class="nav">
-            <div class="nav-links">PROFILE</div>
-            <div class="nav-links">WORK</div>
-            <div class="nav-links">STILLS</div>
-            <div class="nav-links">CG</div>
-            <div class="nav-links">OTHERS</div>
+    <header class="header">
+        <div class="highlightContainer">
+            <div class="highlight"></div>
+        </div>
+        <div class="title">UNKNOWN VISUALS</div>
+        <div class="subTitle">DIGITAL CREATOR</div>
+        <nav class="navigation">
+            <div class="pages">PROFILE</div>
+            <div class="pages">WORK</div>
+            <div class="pages">PERSONAL WORK</div>
         </nav>
     </header>
-    <!-- MAIN SECTION -->
-    <main>
-        <div class="column">
-            <img src="assets/pictures/reynaldhi.jpg" alt="Profile Picture" id="profilepic">
+    <main class="main">
+        <div class="profilePictureContainer">
+            <img class="profilePicture" src="/assets/pictures/reynaldhi.jpg" alt="Profile Picture">
         </div>
-        <div class="column">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, praesentium porro! Quasi quaerat similique in sapiente nostrum nobis maxime accusantium rerum, fuga praesentium saepe quis perferendis inventore dolore molestiae assumenda voluptas nesciunt cum! Iste nostrum molestias maiores consequuntur ratione porro soluta, quidem beatae unde possimus rerum enim quia facilis deleniti deserunt ad provident incidunt, vero ipsum voluptas. Ipsa, error provident officiis vitae doloribus a sapiente! Odit ut quis amet possimus quibusdam nam in delectus molestiae similique facere quod mollitia iusto dicta quia magnam placeat, itaque vel recusandae quam nobis repellendus porro ab quidem. Magni voluptatibus enim ad natus, vel modi!</div>
+        <div class="profileDescriptionContainer">
+            <p class="profileDescriptionText">
+                Hi, my name is Reynaldhi Tryana Graha. I'm an undergraduate student studying Telecommunication
+                Engineering at Telkom University. Filmmaking is not only my hobby but also a side job that I'm fortunate
+                to be involved in. Primarily, I work as an editor, but I also have experience as a Director of
+                Photography and Director for some Short Films. Additionally, I work as a Practicum Assistant and
+                Research Assistant in two different Labs at Telkom University. If you'd like to know more about me, feel
+                free to click some of the buttons below.
+            </p>
+        </div>
     </main>
-    <!-- FOOTER SECTION -->
-    <footer>
-        <nav class="socials">
-            <a href="https://www.youtube.com/@unknownvisuals4371" target="_blank">
-                <img src="assets/logos/youtube.png" alt="my YouTube" class="socials-icons">
-            </a>
-            <a href="https://github.com/UnknownVisuals" target="_blank">
-                <img src="assets/logos/github.png" alt="my GitHub" class="socials-icons">
-            </a>
-            <a href="https://www.instagram.com/reynaldhi.png/" target="_blank">
-                <img src="assets/logos/instagram.png" alt="my Instagram" class="socials-icons">
-            </a>
-            <a href="https://web.facebook.com/profile.php?id=100010470690467" target="_blank">
-                <img src="assets/logos/facebook.png" alt="my Facebook" class="socials-icons">
-            </a>
-            <a href="https://mobile.twitter.com/reynaldhi_txt" target="_blank">
-                <img src="assets/logos/twitter.png" alt="my Twitter" class="socials-icons">
-            </a>
-        </nav>
+    <footer class="footer">
+        <div class="line"></div>
+        <div class="links">
+            <div class="socialMediaLinks">
+                <img class="socialMediaIcons" src="/assets/icons/instagram.png" alt="">
+            </div>
+            <div class="socialMediaLinks">
+                <img class="socialMediaIcons" src="/assets/icons/youtube.png" alt="">
+            </div>
+            <div class="socialMediaLinks">
+                <img class="socialMediaIcons" src="/assets/icons/github.png" alt="">
+            </div>
+        </div>
+        <div class="copyrightContainer">
+            <p class="copyright">&#169; Unknown Visuals 2023. All Right Reserved.</p>
+        </div>
     </footer>
 </body>
+
 </html>

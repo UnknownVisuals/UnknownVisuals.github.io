@@ -1,0 +1,18 @@
+.profilePictureContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.profilePicture {
+  width: 800px;
+}
+
+.profileDescriptionContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.profileDescriptionText {
+  width: 800px;
+  text-align: justify;
+}
