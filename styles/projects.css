@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoProjectContainer {
+  max-width: 1280px;
+}
+
+.videoProjectTitle {
+  font-size: 16px;
+  text-align: center;
+  margin: 12px;
+}
+
+.videoProjectVideoContainer {
+  max-width: 1280px;
+  margin-bottom: 10px;
+}
+
+.videoProject {
+  width: 1280;
+}
+
+.videoProjectStillsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  max-width: 1280px;
+}
+
+.videoProjectStills {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.videoProjectRole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+@media (max-width: 1080px) {
+  .videoProjectStillsContainer {
+    grid-template-columns: 1fr;
+    transition: all 0.15s;
+  }
+}
