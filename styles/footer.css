@@ -4,15 +4,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .line {
   height: 1px;
-  margin: 2px;
-  width: 800px;
+  margin: 2px auto;
+  width: 820px;
   background-image: radial-gradient(
     rgba(255, 255, 255, 0.514),
     transparent,
@@ -23,12 +20,12 @@
 .links {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .socialMediaIcons {
   width: 30px;
-  margin: 10px 20px;
+  margin: 0 20px;
   opacity: 0.825;
   transition: all 0.15s;
 }
@@ -39,9 +36,12 @@
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.125);
 }
 
+.copyrightContainer {
+  margin-bottom: 20px;
+}
+
 .copyright {
   color: #c0c0c0;
   font-size: 12px;
   text-align: center;
-  margin: 10px 10px 20px 10px;
 }

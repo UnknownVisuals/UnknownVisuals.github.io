@@ -1,11 +1,6 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .videoProjectContainer {
   max-width: 1280px;
+  margin: 10px auto;
 }
 
 .videoProjectTitle {
@@ -14,16 +9,24 @@
   margin: 12px;
 }
 
-.videoProjectVideoContainer {
-  max-width: 1280px;
-  margin-bottom: 10px;
+.iframeContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
-.videoProject {
-  width: 1280;
+.iframeContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .videoProjectStillsContainer {
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
